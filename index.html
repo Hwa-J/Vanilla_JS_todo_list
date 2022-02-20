@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to_do_list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="clock"></div>
+    <form id="greeting">
+      <span class="whatName">What's your name?</span>
+      <div class="writeName">
+        <input type="text" id="name" placeholder="Write your name." required />
+        <button type="submit" id="submit">submit</button>
+      </div>
+    </form>
+    <div id="onOff">
+      <h1 id="hello"></h1>
+      <form id="todoForm">
+        <input id="todoInput" type="text" required />
+        <button id="todoBtn" type="submit">Add</button>
+      </form>
+      <div id="todo">
+        <ul id="todoList"></ul>
+      </div>
+    </div>
+    <script src="src/clock.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
